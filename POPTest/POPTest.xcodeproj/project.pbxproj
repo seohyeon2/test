@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058AAF1528706F1C00A1993B /* MackBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AAF1428706F1C00A1993B /* MackBook.swift */; };
 		05D8D9572870609C008D4CBD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8D9562870609C008D4CBD /* main.swift */; };
 		05D8D95E287060C2008D4CBD /* Chargeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8D95D287060C2008D4CBD /* Chargeable.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		058AAF1428706F1C00A1993B /* MackBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MackBook.swift; sourceTree = "<group>"; };
 		05D8D9532870609C008D4CBD /* POPTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = POPTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D8D9562870609C008D4CBD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		05D8D95D287060C2008D4CBD /* Chargeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargeable.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				05D8D9562870609C008D4CBD /* main.swift */,
 				05D8D95D287060C2008D4CBD /* Chargeable.swift */,
+				058AAF1428706F1C00A1993B /* MackBook.swift */,
 			);
 			path = POPTest;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058AAF1528706F1C00A1993B /* MackBook.swift in Sources */,
 				05D8D9572870609C008D4CBD /* main.swift in Sources */,
 				05D8D95E287060C2008D4CBD /* Chargeable.swift in Sources */,
 			);

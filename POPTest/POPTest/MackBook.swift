@@ -1,8 +1,14 @@
-//
-//  MackBook.swift
-//  POPTest
-//
-//  Created by seohyeon park on 2022/07/02.
-//
+struct MacBook {
+    let maximumWattPerHour: WattPerHour = 100
+    let chargeableWattPerHour: WattPerHour
+    var currentBattery: WattPerHour
 
-import Foundation
+    mutating func chargeBattery(charger: Chargeable) {
+        var time = 0
+        while currentBattery < maximumWattPerHour {
+            currentBattery += charger.convert(chargeableWattPerHour: chargeableWattPerHour)
+            time += 1
+        }
+        print(time, "만큼 걸림")
+    }
+}
